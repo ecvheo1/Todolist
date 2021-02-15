@@ -1,0 +1,56 @@
+body {
+    padding : 0;
+    margin : 0;
+}
+
+body, li, input {
+	color: white;
+}
+
+button:focus,
+button:active{
+	outline: none;
+}
+
+input{
+	background: white;
+	border: 3px solid white;
+	color: #4F6892;
+}
+
+input:focus{
+	outline: none;
+	background-color: #e3edfc;
+}
+
+.left {
+    width : 30%;
+    height: 100vh;
+	position: fixed;
+	left: 0;
+    background-color : #75AAFF;
+}
+
+.right {
+    width : 70%;
+    height : 100vh;
+    position : fixed;
+    right : 0;
+    background-color : #4F6892;
+}
+
+.left-items {
+    display : flex;
+    justify-content : center;
+    flex-direction : column;
+    align-content : center;
+    height : 100vh;
+}
+
+.userImage{
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+}

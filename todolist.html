@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>todolist</title>
+    <link rel="stylesheet" href="todolist.css">
+    <link rel="stylesheet" href="name.css">
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div class="left">
+        <div class="left-items">
+            <div>
+                <img class="userImage" src="image/user.png">
+                <form class="js-name">
+                    <div class="greetings-set">
+                        <input type="Text" class="nameInput" placeholder="NAME?">
+                        <button class="nameButton">submit</button>
+                    </div>
+                </form>
+                <div class="greetings-set">
+                    <h4 class="js-greetings greetings"></h4>
+                    <img class="js-pencil pencil" src="image/pencil.png">
+                </div>
+            </div>
+            <div>
+                <form class="js-toDoForm">
+                    <div class="toDo-set">
+                        <input type="text" class="js-toDoInput" placeholder="TO DO?">
+                        <button class="toDoBtn">submit</button>
+                        <span class="js-empty empty">You can't leave this empty.</span>
+                    </div>
+                </form>
+                <div class="progress-set">
+                    <div class="cheerImageProgeress">
+                        <img class="js-cheerImage" src="image/cheerleader.png">
+                        <span class="js-completed">0% completed!</span>
+                    </div>
+                    <div class="toDoProgress">
+                        <div class="js-toDoProgressBar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <h1 class="toDoText">TO DO LIST</h1>
+        <div class="toDoItems">
+            <ul class="js-toDoList">
+                <li class="js-nothing nothing">Nothing to do</li>
+            </ul>
+        </div>
+
+    </div>
+    <script src="name.js"></script>
+    <script src="todo.js"></script>
+</body>
+</html>
