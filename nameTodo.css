@@ -1,0 +1,153 @@
+.js-name,
+.pencil,
+.greetings {
+    display : none;
+}
+
+.nothing {
+    display : none;
+}
+
+.greetings-set, .js-toDoForm{
+	text-align: center;
+}
+
+.empty {
+    font-size : 20px;
+    text-align : center;
+    display : none;
+    color : red;
+}
+
+.nameInput{
+	font-size: 25px;
+	width: 130px;
+	padding: 7px 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.nameInput::placeholder{
+	text-align: center;
+}
+
+.nameButton{
+	border: 0;
+	border-radius: 10px;
+	width: 50px;
+	height: 50px;
+	background-color: #618CD1;
+	padding: 0;
+	color: white;
+	cursor: pointer;
+    position: relative;
+    bottom: 4px;
+}
+
+.nameButton:hover {
+    background-color: #577fbf;
+}
+
+.greetings{
+	margin: 0 0 20px 0;
+	font-size: 25px;
+	position: relative;
+    right: 5px;
+}
+
+.pencil{
+	width: 25px;
+	height: 25px;
+	position: relative;
+	left: 5px;
+}
+
+.js-toDoInput {
+    font-size: 20px;
+	width: 250px;
+	padding: 9px 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.js-toDoInput::placeholder{
+	text-align: center;
+}
+
+.toDoBtn{
+	border: 0;
+	border-radius: 10px;
+	width: 50px;
+	height: 50px;
+	background-color: #618CD1;
+	padding: 0;
+	color: white;
+	cursor: pointer;
+    position: relative;
+    bottom: 4px;
+}
+
+.toDoBtn:hover {
+    background-color: #577fbf;
+}
+
+.toDoText {
+	margin : 0;
+	position : absolute;
+	left : 150px;
+	font-size : 50px;
+}
+
+.toDoItems {
+	display : flex;
+	flex-direction : column;
+	justify-content : center;
+	align-content : center;
+	height : 100vh;
+}
+
+.toDoList {
+	margin-top : 10%;
+	margin-left: 110px;
+	margin-right: 110px;
+	list-style : none;
+	height : 60vh;
+}
+
+.toDoList li {
+	font-size : 35px;
+	margin-bottom : 20px;
+	height: 50px;
+}
+
+.todoCheck {
+	width : 30px;
+	height : 30px;
+	margin-right : 10px;
+	position : relative;
+	top: 3px;
+}
+
+.controlBtns {
+	float : right;
+	position : relative;
+	top : 5px;
+	right : 50px;
+}
+
+.delBtn {
+	width: 35px;
+	height: 35px;
+	cursor : pointer;
+}
+
+
+
+
+.showing {
+    display : block;
+}
+
+.inline_showing {
+    display : inline-block;
+}
