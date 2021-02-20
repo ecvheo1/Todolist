@@ -94,6 +94,7 @@
 .toDoText {
 	margin : 0;
 	position : absolute;
+	top : 70px;
 	left : 150px;
 	font-size : 50px;
 }
@@ -141,8 +142,46 @@
 	cursor : pointer;
 }
 
+.progress-set {
+	margin-top : 40px;
+	width : 100%;
+}
 
+.cheerImageProgress {
+	width : 70%;
+	padding : 3px;
+}
 
+.cheerImage {
+	width : 70px;
+	height : 70px;
+}
+
+.completed {
+	font-weight : bold;
+	float : right;
+	position : relative;
+	top : 47px;
+}
+
+.toDoProgress {
+	width : 70%;
+	height : 15px;
+	background : white;
+	border-radius : 25px;
+	padding : 3px;
+	position : relative;
+}
+
+.toDoProgressBar {
+	width : 0%;
+	height : 100%;
+	display : block;
+	background-color : rgb(101, 101, 206);
+	border-radius : 25px;
+	position : relative;
+
+}
 
 .showing {
     display : block;

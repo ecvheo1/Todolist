@@ -5,13 +5,15 @@
     <title>todolist</title>
     <link rel="stylesheet" href="todolist.css">
     <link rel="stylesheet" href="nameTodo.css">
+    <link rel="stylesheet" href="clock.css">
+    <link rel="stylesheet" href="weather.css">
 </head>
 <body>
     <div class="left">
         <div class="left-items">
             <div>
                 <img class="userImage" src="image/user.png">
-                <form class="js-name">
+                <form class="js-name center">
                     <div class="greetings-set">
                         <input type="Text" class="nameInput" placeholder="NAME?">
                         <button class="nameButton">submit</button>
@@ -23,7 +25,7 @@
                 </div>
             </div>
             <div>
-                <form class="js-toDoForm">
+                <form class="js-toDoForm center">
                     <div class="toDo-set">
                         <input type="text" class="js-toDoInput" placeholder="TO DO?">
                         <button class="toDoBtn">submit</button>
@@ -31,12 +33,12 @@
                     </div>
                 </form>
                 <div class="progress-set">
-                    <div class="cheerImageProgress">
-                        <img class="js-cheerImage" src="image/cheerleader.png">
-                        <span class="js-completed">0% completed!</span>
+                    <div class="cheerImageProgress center">
+                        <img class="js-cheerImage cheerImage" src="image/cheerleader.png">
+                        <span class="js-completed completed">0% completed!</span>
                     </div>
-                    <div class="toDoProgress">
-                        <div class="js-toDoProgressBar"></div>
+                    <div class="toDoProgress center">
+                        <div class="js-toDoProgressBar toDoProgressBar"></div>
                     </div>
                 </div>
             </div>
@@ -45,7 +47,7 @@
     <div class="right">
         <div>
             <img class="clockImage" src="image/clock.png" style="vertical-align:middle">
-            <span class="js-clock">00:00</span>
+            <span class="js-clock clock">00:00</span>
         </div>
         <h1 class="toDoText">TO DO LIST</h1>
         <div class="toDoItems">
@@ -53,7 +55,7 @@
                 <li class="js-nothing nothing">Nothing to do</li>
             </ul>
         </div>
-        <p><span class="js-weather"></span></p>
+        <p><span class="js-weather weather"></span></p>
 
     </div>
     <script src="name.js"></script>

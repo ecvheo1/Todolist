@@ -40,7 +40,7 @@ function paintProgressBar (toDoLength, checkedNum) {
             }
             else {
                 width++;
-                toDoProgressBar.style.width = `${width}`;
+                toDoProgressBar.style.width = `${width}%`;
                 completed.innerText = `${width}% completed`;
             }
         }, 5);
@@ -53,7 +53,7 @@ function paintProgressBar (toDoLength, checkedNum) {
             }
             else {
                 width--;
-                toDoProgressBar.style.width = `${width}`;
+                toDoProgressBar.style.width = `${width}%`;
                 completed.innerText = `${width}% completed`;
             }
         }, 5);
